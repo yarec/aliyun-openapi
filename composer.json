@@ -1,0 +1,25 @@
+{
+    "name": "ddingchen/aliyun-openapi",
+    "description": "A Composer package of aliyun openapi.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "ddingchen",
+            "email": "183488175@qq.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "origin",
+            "Aliyun.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    }
+}
