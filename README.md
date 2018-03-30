@@ -28,6 +28,7 @@ use Ecs\Request\V20140526\DescribeRegionsRequest;
 // openapi的一些必要的全局设定（功能尚不完善）
 Aliyun::setUp();
 
+// 下面为示例业务代码，与官方SDK使用无差别
 $profile = \DefaultProfile::getProfile("cn-hangzhou", "your-key", "your-secret");
 $client = new \DefaultAcsClient($profile);
 $request = new DescribeRegionsRequest();
