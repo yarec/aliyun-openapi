@@ -1,5 +1,5 @@
 {
-    "name": "ddingchen/aliyun-sdk",
+    "name": "yarec/aliyun-sdk",
     "description": "A Composer package of aliyun openapi.",
     "type": "library",
     "authors": [
